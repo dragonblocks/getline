@@ -1,7 +1,7 @@
 #ifndef _GETLINE_H_
 #define _GETLINE_H_
 
-#include <stdio.h>
+#include_next <stdio.h>
 #include <stdint.h>
 
 // if typedef doesn't exist (msvc, blah)

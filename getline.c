@@ -3,9 +3,9 @@
    - Switched to getc on 5/23/19 */
 /* Modifications, public domain, by Elias Fleckenstein 24/04/2022 */
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
-#include "getline.h"
 
 ssize_t getline(char **lineptr, size_t *n, FILE *stream) {
     size_t pos;
